@@ -12,4 +12,6 @@ fun main(args: Array<String>) {
 
     print("Введите число c: ")
     val c = reader.nextDouble()
+
+    val d = (b * b) - (4 * a * c)
 }
