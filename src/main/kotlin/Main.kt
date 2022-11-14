@@ -21,7 +21,7 @@ fun main(args: Array<String>) {
       val x2 = (-b - sqrt(d)) / (2*a)
         print("x1 = $x1, x2 = $x2")
     } else if (d - 0 < 0.00001) {
-       val x = -b  / (2*a)
+      val x = -b / (2*a)
         print("x = $x")
     } else {
         print("Корней нет")
