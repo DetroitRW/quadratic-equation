@@ -17,13 +17,13 @@ fun main(args: Array<String>) {
     val d = (b * b) - (4 * a * c)
 
     if (d > 0) {
-      val x1 = (-b + sqrt(d)) / (2*a)
-      val x2 = (-b - sqrt(d)) / (2*a)
+        val x1 = (-b + sqrt(d)) / (2*a)
+        val x2 = (-b - sqrt(d)) / (2*a)
         print("x1 = $x1, x2 = $x2")
-    } else if (d - 0 < 0.00001) {
-      val x = -b / (2*a)
+    }   else if (d - 0 < 0.00001) {
+        val x = -b / (2*a)
         print("x = $x")
-    } else {
+    }   else {
         print("Корней нет")
     }
 }
